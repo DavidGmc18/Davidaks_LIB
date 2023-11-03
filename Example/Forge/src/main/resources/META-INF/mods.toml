@@ -1,0 +1,14 @@
+modLoader="javafml"
+license="LGPLv3"
+loaderVersion="[39,)"
+issueTrackerURL=""
+displayURL=""
+
+[[mods]]
+    modId="examplemod"
+    version="69"
+    displayName="Example"
+	authors="Davidak"
+    description="Example"
+
+#TODO dependency for lib

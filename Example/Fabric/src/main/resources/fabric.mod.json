@@ -1,0 +1,25 @@
+{
+    "schemaVersion": 1,
+    "id": "examplemod",
+    "version": "69",
+    "name": "Example",
+    "description": "",
+    "authors": [
+      "Davidak"
+    ],
+    "license": "LGPLv3",
+    "environment": "*",
+    "entrypoints": {
+      "main": [
+        "example.ExampleMod"
+      ],
+      "examplemod": [
+        "example.ExampleMod"
+      ]
+    },
+    "mixins": [],
+    "depends": {
+//       TODO dependency for lib
+    }
+  }
+  

@@ -25,3 +25,6 @@ rootProject.name = 'MultiLoader-Template'
 include("common")
 include("fabric")
 include("forge")
+
+include("Example:fabric")
+include("Example:forge")

@@ -4,7 +4,29 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="13ba0ed5-5785-4c28-8de1-e9d86cacecab" name="Changes" comment="" />
+    <list default="true" id="13ba0ed5-5785-4c28-8de1-e9d86cacecab" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/Example/Fabric/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/Fabric/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/Fabric/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/Fabric/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/Fabric/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/Fabric/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/Fabric/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/Fabric/src/main/java/example/ExampleMod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/Fabric/src/main/resources/fabric.mod.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/Fabric/src/main/resources/pack.mcmeta" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/Forge/build.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/Forge/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/Forge/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/Forge/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/Forge/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/Forge/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/Forge/settings.gradle" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/Forge/src/main/java/example/ExampleMod.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/Forge/src/main/resources/META-INF/mods.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Example/Forge/src/main/resources/pack.mcmeta" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/settings.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/settings.gradle" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -40,6 +62,9 @@
         <task path="$PROJECT_DIR$/fabric">
           <activation />
         </task>
+        <task path="$PROJECT_DIR$/Example">
+          <activation />
+        </task>
         <projects_view>
           <tree_state>
             <expand />
@@ -69,27 +94,28 @@
   <component name="ProjectViewState">
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/david/OneDrive/Documents/Minecraft mods/Library&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "last_opened_file_path": "C:/Users/david/OneDrive/Documents/Minecraft mods/Library"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\david\OneDrive\Documents\Minecraft mods\Library" />
+      <recent name="C:\Users\david\OneDrive\Documents\Minecraft mods\Library\Tutorials\Fabric" />
       <recent name="C:\Users\david\OneDrive\Documents\Minecraft mods\Library\common\src\main\java\com" />
       <recent name="C:\Users\david\OneDrive\Documents\Minecraft mods\Library\common\src\main\java\com\example" />
       <recent name="C:\Users\david\OneDrive\Documents\Minecraft mods\Library\forge\src\main\java\com" />
-      <recent name="C:\Users\david\OneDrive\Documents\Minecraft mods\Library\Example" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="C:\Users\david\OneDrive\Documents\Minecraft mods\Library\ExampleForge\src\main\resources\META-INF\example" />
     </key>
   </component>
-  <component name="RunManager" selected="Gradle.Library:fabric [runClient]">
-    <configuration name="Library:ExampleForge [Client]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+  <component name="RunManager" selected="Gradle.Library:Example:forge [runClient]">
+    <configuration name="Library:ExampleForge [Client]" type="GradleRunConfiguration" factoryName="Gradle">
       <ExternalSystemSettings>
         <option name="executionName" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/ExampleForge" />
@@ -123,6 +149,28 @@
         <option name="taskNames">
           <list>
             <option value="Client" />
+          </list>
+        </option>
+        <option name="vmOptions" />
+      </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
+      <RunAsTest>false</RunAsTest>
+      <method v="2" />
+    </configuration>
+    <configuration name="Library:Example:forge [runClient]" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
+      <ExternalSystemSettings>
+        <option name="executionName" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Example/forge" />
+        <option name="externalSystemIdString" value="GRADLE" />
+        <option name="scriptParameters" />
+        <option name="taskDescriptions">
+          <list />
+        </option>
+        <option name="taskNames">
+          <list>
+            <option value="runClient" />
           </list>
         </option>
         <option name="vmOptions" />
@@ -219,11 +267,43 @@
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="tests" factoryName="Autodetect">
+      <module name="MultiLoader-Template" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <module name="MultiLoader-Template.ExampleForge" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.Library:fabric [runClient]" />
+        <item itemvalue="Gradle.Library:Example:forge [runClient]" />
         <item itemvalue="Gradle.Library:forge [Client]" />
-        <item itemvalue="Gradle.Library:ExampleForge [Client]" />
+        <item itemvalue="Gradle.Library:fabric [runClient]" />
         <item itemvalue="Gradle.Library:Example:forge [Client]" />
       </list>
     </recent_temporary>
