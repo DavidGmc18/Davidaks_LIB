@@ -11,6 +11,9 @@ subprojects {
     java.toolchain.languageVersion = JavaLanguageVersion.of(17)
     java.withSourcesJar()
     java.withJavadocJar()
+
+    version = rootProject.version
+    def mod_build_version = "0.0.0" //TODO automate this
         
     jar {
         from(rootProject.file("LICENSE")) {
