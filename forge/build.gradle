@@ -97,6 +97,42 @@ processResources {
 jar.finalizedBy('reobfJar')
 
 publishing {
+    publications {
+        mavenJava(MavenPublication) {
+            // We must use artifact jar to ensure the Forge dependency is excluded from the pom, breaking fg.deobf()
+            artifact jar
+            groupId project.group
+            artifactId project.archivesBaseName
+            version project.version
+
+            pom {
+                name = 'Dlib'
+                description = ""
+                url = 'https://github.com/DavidGmc18/Davidaks_LIB'
+                scm {
+                    url = 'https://github.com/DavidGmc18/Davidaks_LIB'
+                    connection = 'scm:git:git://github.com/DavidGmc18/Davidaks_LIB.git'
+                    developerConnection = 'scm:git:git@github.com:DavidGmc18/Davidaks_LIB.git'
+                }
+                issueManagement {
+                    system = 'github'
+                    url = 'https://github.com/DavidGmc18/Davidaks_LIB/issues'
+                }
+//                licenses {
+//                    license {
+//                        name = 'LGPLv3'
+//                        url = 'https://www.gnu.org/licenses/lgpl-3.0.txt'
+//                    }
+//                }
+                developers {
+                    developer {
+                        id = 'davidak'
+                        name = 'Davidak'
+                    }
+                }
+            }
+        }
+    }
     repositories {
         maven {
             name = "GitHubPackages"
