@@ -102,12 +102,12 @@ publishing {
             // We must use artifact jar to ensure the Forge dependency is excluded from the pom, breaking fg.deobf()
             artifact jar
             groupId project.group
-            artifactId project.archivesBaseName
+            artifactId 'dlib-forge'
             version project.version
 
             pom {
                 name = 'Dlib'
-                description = ""
+                description = "Lib for my mods"
                 url = 'https://github.com/DavidGmc18/Davidaks_LIB'
                 scm {
                     url = 'https://github.com/DavidGmc18/Davidaks_LIB'
@@ -118,16 +118,16 @@ publishing {
                     system = 'github'
                     url = 'https://github.com/DavidGmc18/Davidaks_LIB/issues'
                 }
-//                licenses {
-//                    license {
-//                        name = 'LGPLv3'
-//                        url = 'https://www.gnu.org/licenses/lgpl-3.0.txt'
-//                    }
-//                }
+                licenses {
+                    license {
+                        name = 'LGPLv3'
+                        url = 'https://www.gnu.org/licenses/lgpl-3.0.txt'
+                    }
+                }
                 developers {
                     developer {
-                        id = 'davidak'
-                        name = 'Davidak'
+                        id = 'davidgmc18'
+                        name = 'DavidGmc18'
                     }
                 }
             }
