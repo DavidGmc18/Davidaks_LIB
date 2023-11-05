@@ -12,6 +12,15 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/MultiLoader-Template.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/MultiLoader-Template.fabric.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/MultiLoader-Template.forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/MultiLoader-Template.forge.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/MultiLoader-Template.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/MultiLoader-Template.forge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common.MultiLoader-Template.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common.MultiLoader-Template.common.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/common.MultiLoader-Template.common.test.iml" filepath="$PROJECT_DIR$/.idea/modules/common/common.MultiLoader-Template.common.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Example/fabric/fabric.MultiLoader-Template.Example.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Example/fabric/fabric.MultiLoader-Template.Example.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Example/fabric/fabric.MultiLoader-Template.Example.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Example/fabric/fabric.MultiLoader-Template.Example.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/fabric.MultiLoader-Template.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/fabric.MultiLoader-Template.fabric.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/fabric/fabric.MultiLoader-Template.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/fabric/fabric.MultiLoader-Template.fabric.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Example/forge/forge.MultiLoader-Template.Example.forge.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Example/forge/forge.MultiLoader-Template.Example.forge.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/Example/forge/forge.MultiLoader-Template.Example.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Example/forge/forge.MultiLoader-Template.Example.forge.test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/forge/forge.MultiLoader-Template.forge.test.iml" filepath="$PROJECT_DIR$/.idea/modules/forge/forge.MultiLoader-Template.forge.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Example/fabric/lib.MultiLoader-Template.Example.fabric.main.iml" filepath="$PROJECT_DIR$/.idea/modules/Example/fabric/lib.MultiLoader-Template.Example.fabric.main.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/Example/fabric/lib.MultiLoader-Template.Example.fabric.test.iml" filepath="$PROJECT_DIR$/.idea/modules/Example/fabric/lib.MultiLoader-Template.Example.fabric.test.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/common/lib.MultiLoader-Template.common.main.iml" filepath="$PROJECT_DIR$/.idea/modules/common/lib.MultiLoader-Template.common.main.iml" />
