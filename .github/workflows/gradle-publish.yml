@@ -23,7 +23,7 @@ jobs:
       - name: Setup Gradle
         uses: gradle/gradle-build-action@v2
       - name: Refresh Gradle Dependencies
-        run: ./gradlew #--refresh-dependencies
+        run: ./gradlew #--refresh-dependencies TODO uncomment?
       - name: Publish
         run: ./gradlew publish
         env:

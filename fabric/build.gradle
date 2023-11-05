@@ -56,13 +56,47 @@ processResources {
 publishing {
     publications {
         mavenJava(MavenPublication) {
-            artifactId base.archivesName.get()
+            groupId project.group
+            artifactId project.archivesBaseName
+            version project.version
             from components.java
+
+            pom {
+                name = 'DavidaksLIB-fabric'
+                description = "lib for mc mods"
+                url = 'https://github.com/DavidGmc18/Davidaks_LIB'
+                scm {
+                    url = 'https://github.com/DavidGmc18/Davidaks_LIB'
+                    connection = 'scm:git:git://github.com/DavidGmc18/Davidaks_LIB.git'
+                    developerConnection = 'scm:git:git@github.com:DavidGmc18/Davidaks_LIB.git'
+                }
+                issueManagement {
+                    system = 'github'
+                    url = 'https://github.com/DavidGmc18/Davidaks_LIB/issues'
+                }
+//                licenses {
+//                    license {
+//                        name = 'LGPLv3'
+//                        url = 'https://www.gnu.org/licenses/lgpl-3.0.txt'
+//                    }
+//                }
+                developers {
+                    developer {
+                        id = 'davidak'
+                        name = 'Davidak'
+                    }
+                }
+            }
         }
     }
     repositories {
         maven {
-            url "file://" + System.getenv("local_maven")
+            name = "GitHubPackages"
+            url = "https://maven.pkg.github.com/DavidGmc18/Davidaks_LIB"
+            credentials {
+                username = System.getenv("GITHUB_USERNAME")
+                password = System.getenv("GITHUB_PASSWORD")
+            }
         }
     }
 }
