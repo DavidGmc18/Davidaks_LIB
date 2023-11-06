@@ -36,4 +36,5 @@ minecraft {
 
 dependencies {
     minecraft 'net.minecraftforge:forge:' + minecraft_version + '-' + forge_version
+    implementation fg.deobf('davidgmc18:dlib-forge:1.0.0')
 }

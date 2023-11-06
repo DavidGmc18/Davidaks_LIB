@@ -101,7 +101,7 @@ publishing {
         mavenJava(MavenPublication) {
             // We must use artifact jar to ensure the Forge dependency is excluded from the pom, breaking fg.deobf()
             artifact jar
-            groupId project.group
+            groupId 'com.github.davidgmc18'
             artifactId 'dlib-forge'
             version project.version
 
